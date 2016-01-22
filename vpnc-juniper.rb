@@ -1,4 +1,4 @@
-class Vpnc < Formula
+class VpncJuniper < Formula
   desc "Cisco VPN concentrator client"
   homepage "https://www.unix-ag.uni-kl.de/~massar/vpnc/"
   url "https://mirrors.ocf.berkeley.edu/debian/pool/main/v/vpnc/vpnc_0.5.3r550.orig.tar.gz"
