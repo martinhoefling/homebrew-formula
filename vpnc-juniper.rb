@@ -1,11 +1,10 @@
 class VpncJuniper < Formula
   desc "Cisco VPN concentrator client"
   homepage "https://www.unix-ag.uni-kl.de/~massar/vpnc/"
-  url "https://mirrors.ocf.berkeley.edu/debian/pool/main/v/vpnc/vpnc_0.5.3r550.orig.tar.gz"
-  mirror "https://mirrors.kernel.org/debian/pool/main/v/vpnc/vpnc_0.5.3r550.orig.tar.gz"
-  version "0.5.3r550"
-  sha256 "a6afdd55db20e2c17b3e1ea9e3f017894111ec4ad94622644fc841c146942e71"
-  revision 1
+  url "https://github.com/ndpgroup/vpnc/archive/b1243d29e0c00312ead038b04a2cf5e2fa31d740.zip"
+  mirror "https://github.com/ndpgroup/vpnc/archive/b1243d29e0c00312ead038b04a2cf5e2fa31d740.zip"
+  version "0.5.4"
+  sha256 "ed8e4179fd60d8ec84cf207f91a6d69d22565734e40d9063135296985e155427"
 
   option "with-hybrid", "Use vpnc hybrid authentication"
 
