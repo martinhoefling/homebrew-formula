@@ -17,10 +17,6 @@ class VpncJuniper < Formula
   depends_on :tuntap
   depends_on "openssl" if build.with? "hybrid"
 
-  fails_with :llvm do
-    build 2334
-  end
-
   # Patch from user @Imagesafari to enable compilation on Lion
   patch :DATA if MacOS.version >= :lion
 
